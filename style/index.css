@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap");
+button,
+input {
+  box-shadow: none !important;
+}
+
+.bg-pink {
+  background-color: #e5345b !important;
+}
+
+.text-main {
+  color: #e5345b;
+}
+
+.title h2::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 50px;
+  background-color: #e5345b;
+  left: -20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+nav .navbar-brand span {
+  letter-spacing: 2px;
+  font-family: "Kaisei Tokumin", serif;
+}
+nav .navbar-brand img {
+  width: 30px;
+}
+nav .navbar-collapse .nav-item {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+nav .navbar-collapse .nav-link:hover {
+  color: #e5345b !important;
+}
+
+header {
+  background: url(../image/banner-img-1.jpg) top/cover no-repeat;
+  padding-top: 104px;
+}
+header .carousel-item h1 {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+header .carousel-item a {
+  display: inline-block;
+  background-color: #fff;
+  color: rgb(85, 85, 85);
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+}
+header .carousel-item a:hover {
+  background-color: #e5345b;
+  border: 1px solid #e5345b;
+  color: #fff;
+}
+
+section.collection .btn {
+  display: inline-block;
+  background-color: #fff;
+  color: rgb(85, 85, 85);
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  border: 1px solid black;
+}
+section.collection .btn:hover {
+  background-color: #e5345b;
+  border: 1px solid #e5345b;
+  color: #fff;
+}
+section.collection .active-btn {
+  background-color: #e5345b;
+  border: 1px solid #e5345b;
+  color: #fff;
+}
+section.collection .collection-list span {
+  top: 20px;
+  right: 20px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+section.special .special-img:hover img {
+  transform: scale(1.2);
+}
+section.special .special-img span {
+  top: 20px;
+  right: 20px;
+}
+section.special .special-img img {
+  transition: all 0.3s ease;
+}
+section.special .special-list a {
+  display: inline-block;
+  background-color: #fff;
+  color: rgb(85, 85, 85);
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  border: 1px solid rgb(85, 85, 85);
+  text-decoration: none;
+}
+section.special .special-list a:hover {
+  background-color: #e5345b;
+  border: 1px solid #e5345b;
+  color: #fff;
+}
+
+section.offer {
+  background: url(../image/offer_img.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.offer .row {
+  min-height: 60vh;
+}
+section.offer .row span {
+  font-size: 28px;
+}
+section.offer .row h2 {
+  font-size: 60px;
+  font-family: "Kaisei Tokumin", serif;
+}
+section.offer .row .btn {
+  display: inline-block;
+  background-color: #fff;
+  color: rgb(85, 85, 85);
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  border-color: transparent;
+}
+section.offer .row .btn:hover {
+  background-color: #e5345b;
+  border: 1px solid #e5345b;
+  color: #fff;
+}
+
+section.blog .card a {
+  display: inline-block;
+  background-color: #fff;
+  color: rgb(85, 85, 85);
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: 1px solid #fff;
+  border: 1px solid rgb(85, 85, 85);
+  text-decoration: none;
+}
+section.blog .card a:hover {
+  background-color: #e5345b;
+  border: 1px solid #e5345b;
+  color: #fff;
+}
+
+section.newsletter {
+  background-color: rgba(179, 179, 179, 0.05);
+}
+section.newsletter p {
+  max-width: 600px;
+}
+section.newsletter .input-group {
+  max-width: 500px;
+}
+section.newsletter .input-group .form-control {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+section.newsletter .input-group .btn {
+  background-color: #e5345b;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 25px;
+  border: 1px solid #e5345b;
+}
+section.newsletter .input-group .btn:hover {
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+footer .brand {
+  font-family: "Kaisei Tokumin", serif;
+  letter-spacing: 2px;
+}
+footer a {
+  transition: all 0.3s;
+}
+footer a:hover {
+  color: #e5345b !important;
+}
+
+@media all and (min-width: 992px) {
+  nav .navbar-collapse .nav-item {
+    border-bottom: none;
+  }
+}/*# sourceMappingURL=index.css.map */
